@@ -1,0 +1,16 @@
+{
+    "name": "orientation",
+    "github": "http://gitbub.com/kingback/orientation/",
+    "version": "0.0.1",
+    "description": "横竖屏切换监听器",
+    "author": {
+        "name": "虎牙",
+        "email": "ningzbruc@gmail.com"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-copy": "",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-clean": "~0.4.0"
+    }
+}
