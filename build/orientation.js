@@ -93,8 +93,11 @@
             //当前信息
             this.info = this.getInfo();
             
+            //绑定事件回调上下文
+            this._onWinOrientationChange = bind(this._onWinOrientationChange, this);
+            
             //绑定窗口切换事件
-            window.addEventListener(EVT_ORIENTATION_CHANGE, bind(this._onWinOrientationChange, this), false);
+            window.addEventListener(EVT_ORIENTATION_CHANGE, this._onWinOrientationChange, false);
         },
         
         /**
