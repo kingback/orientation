@@ -1,6 +1,6 @@
 ## Orientation
 
-- BY 虎牙
+- BY ningzbruc
 
 ## 简介
 
